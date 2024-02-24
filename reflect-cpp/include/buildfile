@@ -1,0 +1,14 @@
+pub_hdrs = {hxx ixx txx h}{** -rfl-version} hxx{rfl-version}
+
+./: $pub_hdrs
+
+hxx{rfl-version}: in{rfl-version} $src_root/manifest
+
+# Install into the rfl/ subdirectory of, say, /usr/include/
+# recreating subdirectories.
+#
+{hxx ixx txx}{*}:
+{
+  install         = include/
+  install.subdirs = true
+}

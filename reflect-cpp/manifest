@@ -1,0 +1,14 @@
+: 1
+name: reflect-cpp
+version: 0.1.0-a.0.z
+type: lib
+language: c++
+summary: reflect-cpp C++ library
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/reflect-cpp
+email: 142265+Klaim@users.noreply.github.com
+#build-error-email: 142265+Klaim@users.noreply.github.com
+depends: * build2 >= 0.16.0
+depends: * bpkg >= 0.16.0
+#depends: libhello ^1.0.0
