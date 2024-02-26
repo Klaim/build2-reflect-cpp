@@ -31,7 +31,7 @@ obja{*}: cxx.poptions += -DREFLECT_CPP_STATIC_BUILD
 
 # Export options.
 #
-lib{reflect-cpp}:
+liba{reflect-cpp}:
 {
   cc.export.poptions = "-I$out_pfx_inc" "-I$src_pfx_inc"
   cc.export.libs = $intf_libs
