@@ -1,6 +1,6 @@
 : 1
 name: reflect-cpp
-version: 0.8.0-a.0.z
+version: 0.8.0
 type: lib
 language: c++
 summary: reflect-cpp C++ library
